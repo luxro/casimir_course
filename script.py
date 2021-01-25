@@ -1,8 +1,3 @@
-import numpy as np
+import test as test
 
-def circumference(radius):
-	return 2*np.pi*radius
-
-
-def area(radius):
-	return np.pi*radius**2
+print(test.circumference(10),test.area(10))
